@@ -1,28 +1,31 @@
-# Cybersecurity Tools
+# Cybersecurity
 
-Custom cybersecurity tools for penetration testing, vulnerability assessment, compliance audits, and incident response.
+Custom penetration testing, vulnerability assessment, and security tools.
 
-## Folder Structure
+## Categories
 
-| Folder | Description |
-|--------|-------------|
-| `penetration-testing/` | Port scanners, vuln scanners, web recon |
-| `vulnerability-assessment/` | CVE checker, config audit, SSL auditor |
-| `compliance-audits/` | CIS benchmark, policy compliance |
-| `network-analysis/` | Packet capture, traffic monitor, DNS analyzer |
-| `incident-response/` | Forensics collection, malware scan, log analysis |
-| `threat-intelligence/` | IP/domain reputation checking |
-| `cryptography/` | Password generation, file encryption |
+### Penetration Testing
+- `dir-buster.py` - Directory brute-forcing
+- `subdomain-enum.py` - Subdomain enumeration
 
-## Usage
+### Vulnerability Assessment
+- `headers-check.py` - Security headers analysis
+- `cors-check.py` - CORS misconfiguration detection
 
-Each folder contains standalone scripts. See individual README files for details.
+### Network Analysis
+- `dns-enum.py` - DNS enumeration
+- `port-scan-async.py` - Async port scanning
 
-## Requirements
+### Threat Intelligence
+- `ioc-checker.py` - IP/domain/hash checking
 
-- Python 3.9+
-- Bash 4+
-- Root access for some tools
+### Cryptography
+- `password-strength.py` - Password strength evaluation
+- `hash-cracker.py` - Dictionary hash cracking
+
+## Disclaimer
+
+Use only on systems you own or have explicit permission to test.
 
 ## License
 
